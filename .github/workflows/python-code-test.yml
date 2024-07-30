@@ -20,4 +20,4 @@ jobs:
         flake8 --exit-zero --extend-ignore=E,F,W
     - name: Test with pytest
       run: |
-        pytest -vv
+        pytest
